@@ -23,3 +23,17 @@ C:\Windows\System32\config\SECURITY
 I hope it works out for you guys
 
 Have Fun!!!
+
+for end machine, without py, you can leverage on ps1
+
+attached equiv ps1
+
+put C:\local\path\to\rr.ps1
+
+then run
+
+runs "powershell.exe -ExecutionPolicy Bypass -File C:\path\to\uploaded\rr.ps1 -HivePath C:\Users\abuemran\NTUSER.DAT -ReportPath C:\path\to\save\NTUSER.txt"
+
+NTUser.Dat as HiVe example
+
+get C:\path\to\save\NTUSER.txt
